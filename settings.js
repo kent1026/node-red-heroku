@@ -51,7 +51,13 @@ var settings = module.exports = {
         origin: "*",
         methods: "GET,PUT,POST,DELETE"
     },
-    
+    //Use Monaco Code Editor    
+    editorTheme: {
+    codeEditor: {
+        lib: "monaco"
+    }
+},
+
     // Disbled Credential Secret
     credentialSecret: false
 }
