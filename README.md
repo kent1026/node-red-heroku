@@ -19,3 +19,13 @@ Add the following user-defined variables.
 
 * NODE_RED_USERNAME - the username to secure the editor with
 * NODE_RED_PASSWORD - the password to secure the editor with
+
+### Change Code editor
+```json
+editorTheme: {
+    codeEditor: {
+        lib: "monaco"
+    }
+},
+
+```
