@@ -5,11 +5,11 @@ A wrapper for deploying [Node-RED](http://nodered.org) into the [Heroku](https:/
 
 ## Node-RED v2.x on Heroku
 
-forked by https://github.com/joeartsea/node-red-heroku
+forked by https://github.com/n0bisuke/node-red-heroku
 
 ### Deploying Node-RED into Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/n0bisuke/node-red-heroku)
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/kent1026/node-red-heroku)
 
 ### Password protect the flow editor
 
