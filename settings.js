@@ -57,6 +57,14 @@ var settings = module.exports = {
         lib: "monaco"
     }
 },
+    contextStorage: {
+   default: {
+       module:"localfilesystem",
+       config: {
+           // see below
+       }
+   }
+},
 
     // Disbled Credential Secret
     credentialSecret: false
