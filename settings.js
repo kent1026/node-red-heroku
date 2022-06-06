@@ -44,6 +44,11 @@ var settings = module.exports = {
     httpStatic: path.join(__dirname,"public"),
 
     functionGlobalContext: { },
+    contextStorage: {
+            default: "memoryOnly",
+            memoryOnly: { module: 'memory' },
+            file: { module: 'localfilesystem' }
+        },
 
     storageModule: require("./pgstorage"),
 
@@ -56,11 +61,6 @@ var settings = module.exports = {
     codeEditor: {
         lib: "monaco"
     }
-},
-    contextStorage: {
-   default: "memoryOnly",
-   memoryOnly: { module: 'memory' },
-   file: { module: 'localfilesystem' }
 },
 
     // Disbled Credential Secret
