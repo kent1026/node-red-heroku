@@ -58,12 +58,9 @@ var settings = module.exports = {
     }
 },
     contextStorage: {
-   default: {
-       module:"localfilesystem",
-       config: {
-           // see below
-       }
-   }
+   default: "memoryOnly",
+   memoryOnly: { module: 'memory' },
+   file: { module: 'localfilesystem' }
 },
 
     // Disbled Credential Secret
