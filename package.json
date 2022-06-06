@@ -8,5 +8,8 @@
         "feedparser":"~0.19.2",
         "redis":"~0.10.1",
         "node-red": "~2.x"
+    },
+    "engines": {
+        "node": "14.x"
     }
 }
